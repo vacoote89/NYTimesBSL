@@ -13,7 +13,7 @@ You've been asked by the NY Times to design a simple web page to see the current
 **Check point #1 - Developer API key**
 You will need to create your own NYTimes developer API key. This is similar to what you will do for the Movie DB API for your assignment!. [Here are step by step instructions on how to setup NY Times Developer API Key]() to figure out how to create your own API key. You will need to turn on the Books API for this assignment.
 
-Now that you have created your API key, you will create an environment file to store your key. Under the main folder, create a file name `.env`
+Now that you have created your API key, you will create an environment file to store your key. Under the main folder, create a file name `.env.local`
 Inside this file, add the following:
 ```
 REACT_APP_NY_TIMES_API_KEY = your_api_key
@@ -297,8 +297,11 @@ Now let's run our code and see where we are. *(Don't forget to make commits to y
 
 **Bonus Check point: Add all buy options**
 
-The NY Times API includs several options for the user to purchase the book. Update the layout to be a dropdown with all the link options.
+The NY Times API includes several options for the user to purchase the book. Update the layout to be a dropdown with all the link options.
 
 ## What Your File Should Look Like
 
 [Solution](Solution.md)
+
+## License
+[License](LICENSE)
