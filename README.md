@@ -299,7 +299,7 @@ Now let's run our code and see where we are. *(Don't forget to make commits to y
 
 The NY Times API includes several options for the user to purchase the book. Update the layout to be a dropdown with all the link options.
 
-## What Your File Should Look Like
+## What Your Files Should Look Like
 
 [Solution](Solution.md)
 
