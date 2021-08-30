@@ -1,10 +1,10 @@
-#In Class Activity (IA01) - New York Times Best Seller List
+# In Class Activity (IA01) - New York Times Best Seller List
 
 This in a live coding in class activity. The goal is to learn to create React Components, style web pages, and access a RESTful web service.
 
 You will also be learning how to use git alongside this activity for your future projects and assignments.
 
-##Today's Challenge
+## Today's Challenge
 
 You've been asked by the NY Times to design a simple web page to see the current best selling books of the week.
 
