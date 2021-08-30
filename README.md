@@ -23,6 +23,11 @@ REACT_APP_NY_TIMES_API_KEY = your_api_key
 ---
 
 **Check point #2 - Install Libraries & Code Clean Up**
+Next, let's install the libraries that we will use to build out site. The first is Bootstrap. This is a library that allows us to build responsive websites.
+
+There are 2 ways to use [Bootstrap](https://getbootstrap.com/):
+1. Add the CSS and JS files directly to you index.html file. This is how it is most often used in non-React applications. Here you use normal HTML and the CSS classes included.
+1. Use the react component version, [installed with npm](https://react-bootstrap.github.io/). This uses JSX.
 
 We will be using the second. This does not stop use from using the CSS classes directly in the tags. To get started, open a terminal window and navigate to your project folder (you can usually open a terminal directly in your IDE). Next using the node package manager we will install the needed libraries:
 ```
