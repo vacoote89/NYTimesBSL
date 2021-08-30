@@ -267,6 +267,11 @@ You may also update your layout and make your rank into Badge. Add Badge to your
 <Badge className="position-absolute top-0 start-0 rounded-pill translate-middle bg-primary">{book.rank}</Badge>
 ```
 
+Also let's add more detail the image alt text. Set the alt text to show the name of the book and the contributor. Declare a variable and use it in the template.
+```js
+const altText = book.title + " " + book.contributor;
+```
+
 ---
 
 **Check point #7 - Make Book Layout it's own component**
