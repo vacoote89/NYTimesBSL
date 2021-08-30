@@ -199,7 +199,7 @@ getBooks();
 ```
 
 Let's update our output to show the names of the books. We will use the higher-order function, map, to iterate over the books. Replace the placeholder text with the following code:
-```
+```jsx
 {
 	this.state.books.map((book) => {
 		return <p>{book.title}</p>
@@ -221,7 +221,7 @@ As we know everything in Bootstrap is orgranized in rows and columns, so lets im
 
 The add vantage of Bootstrap is it's responsive behaviour, the ability to adjust it's layout based on size of the screen. We are going to take advantage of this and create several columns per row to display the books. We will also use the Card component. Add this to your import list. Copy the template into your code replacing the current return of the paragragh tag.
 
-```
+```jsx
 <Col lg={2} md={4} sm={6} className="d-flex align-items-stretch">
 	<Card className="m-2">
 		<Card.Img variant="top" style={{width:"50%"}} src="" alt="" className="mx-auto" />
@@ -237,7 +237,7 @@ The add vantage of Bootstrap is it's responsive behaviour, the ability to adjust
 
 Next lets add the data values to the template. We'll start with the book image. The link to the iamge is stored in the property book_image. Remove the quotation marks and replace it with the variable in curly braces.
 
-```
+```jsx
 <Card.Img variant="top" style={{width:"50%"}} src={book["book_image"]} alt="" className="mx-auto" />
 ```
 
@@ -258,7 +258,7 @@ Now let's run our code and see where we are. *(Don't forget to make commits to y
 
 You may also update your layout and make your rank into Badge. Add Badge to your bootstrap imports and replace the rank with the following code:
 
-```
+```jsx
 <Badge className="position-absolute top-0 start-0 rounded-pill translate-middle bg-primary">{book.rank}</Badge>
 ```
 
@@ -271,7 +271,7 @@ Imagine you weren't only going to load the best seller list but other books list
 In the components folder add a new file `Book.js`. Given that this component is used to display data that we already have and will not change, we can create a stateless functional component.
 
 ***Book.js***
-```
+```js
 import React from 'react';
 
 function Book() {
@@ -287,7 +287,7 @@ export default Book;
 Next cut and paste the template code we just created in App.js and place it in the return. You are going to note that we are using `book` which doesn't exist in this component. We will pass this value as a property to the component. In the parenthesis following the function name add `{book}`. Be sure to also move over your bootstrap imports.
 
 Great! Now we just need to use our Book component inside our BestSellerList component. Where we removed the template code we will add the Book tag. To pass the information you will add a tag attribute named book and assign it the value book (don't forget the curly braces). When using map with a component, you also need to pass a key value that uniquely identifies each element in the list. We will use the primary_isbn10.
-```
+```jsx
 <Book book={book} key={book.primary_isbn10} />
 ``` 
 

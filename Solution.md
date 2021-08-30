@@ -1,5 +1,6 @@
 # App.js
-```
+
+```jsx
 import {Container, Row, Col} from 'react-bootstrap'
 import BestSellerList from "./components/BestSellerList";
 import './App.css';
@@ -27,7 +28,7 @@ export default App;
 
 # BestSellerList.js
 
-```
+```jsx
 import React, {Component} from 'react';
 import {Row} from 'react-bootstrap'
 import axios from "axios";
@@ -70,7 +71,8 @@ export default BestSellerList;
 
 
 # Book.js
-```
+
+```jsx
 import React from 'react';
 import {Card, Col, Badge} from 'react-bootstrap'
 
