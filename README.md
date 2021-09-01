@@ -107,7 +107,7 @@ You can add the file you changed by doing `git add` followed by the filename or 
 
 Now that we have prepared our project files, lets starting creating the layout.
 
-***App.js**
+***App.js***
 
 In Bootstrap, pages are usually wrapped in a container, so let's start by adding the Container tag. At the top, import the Container component from react-bootstrap
 ```
