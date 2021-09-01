@@ -88,7 +88,7 @@ function Book({book}) {
                     <Card.Title><strong>{book.title}</strong> <Badge className="position-absolute top-0 start-0 rounded-pill translate-middle bg-primary">{book.rank}</Badge></Card.Title>
                     <Card.Subtitle className="text-muted"><i>{book.author}</i></Card.Subtitle>
                     <Card.Text>{book.description}</Card.Text>
-                    <a href={book["amazon_product_url"]} className="btn btn-secondary">BUY ON AMAZON</a>
+                    <a target="_blank" rel="noreferrer" href={book["amazon_product_url"]} className="btn btn-secondary">BUY ON AMAZON</a>
                 </Card.Body>
             </Card>
         </Col>
