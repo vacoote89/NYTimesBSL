@@ -62,6 +62,7 @@ export default App;
 
 
 ***App.css***
+
 Replace all the contents with the following:
 ```css
 .card img{
@@ -281,6 +282,7 @@ Imagine you weren't only going to load the best seller list but other books list
 In the components folder add a new file `Book.js`. Given that this component is used to display data that we already have and will not change, we can create a stateless functional component.
 
 ***Book.js***
+
 ```js
 import React from 'react';
 
