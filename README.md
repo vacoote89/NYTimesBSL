@@ -11,6 +11,7 @@ You've been asked by the NY Times to design a simple web page to see the current
 ---
 
 **Check point #1 - Developer API key**
+
 You will need to create your own NYTimes developer API key. This is similar to what you will do for the Movie DB API for your assignment!. [Here are step by step instructions on how to setup NY Times Developer API Key](Signup_NYTimes_API.md) to figure out how to create your own API key. You will need to turn on the Books API for this assignment.
 
 Now that you have created your API key, you will create an environment file to store your key. Under the main folder, create a file name `.env.local`
@@ -23,6 +24,7 @@ REACT_APP_NY_TIMES_API_KEY = your_api_key
 ---
 
 **Check point #2 - Install Libraries & Code Clean Up**
+
 Next, let's install the libraries that we will use to build out site. The first is Bootstrap. This is a library that allows us to build responsive websites.
 
 There are 2 ways to use [Bootstrap](https://getbootstrap.com/):
@@ -306,6 +308,8 @@ Great! Now we just need to use our Book component inside our BestSellerList comp
 Now let's run our code and see where we are. *(Don't forget to make commits to your repository)*
 
 ![Complete NY Time Best Seller List](/img/bsl_complete.gif)
+
+--- 
 
 **Bonus Check point: Add all buy options**
 
