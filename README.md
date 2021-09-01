@@ -128,7 +128,7 @@ We will now add a title to the page. The title will be inside the Container, nes
 ```jsx
 <Row className="my-2">
 	<Col md={12}>
-		<h1 className="display-5  header-title">The New York Times Best Sellers</h1>
+		<h1 className="display-5 header-title">The New York Times Best Sellers</h1>
 		<hr/>
 	</Col>
 </Row>
@@ -230,7 +230,7 @@ As we know everything in Bootstrap is orgranized in rows and columns, so lets im
 The add vantage of Bootstrap is it's responsive behaviour, the ability to adjust it's layout based on size of the screen. We are going to take advantage of this and create several columns per row to display the books. We will also use the Card component. Add this to your import list. Copy the template into your code replacing the current return of the paragragh tag.
 
 ```jsx
-<Col lg={2} md={4} sm={6} className="d-flex align-items-stretch">
+<Col xxl={2} lg={3} md={4} sm={6} className="d-flex align-items-stretch">
 	<Card className="m-2">
 		<Card.Img variant="top" style={{width:"50%"}} src="" alt="" className="mx-auto" />
 		<Card.Body>
@@ -238,7 +238,7 @@ The add vantage of Bootstrap is it's responsive behaviour, the ability to adjust
 			<Card.Subtitle className="text-muted"></Card.Subtitle>
 			<Card.Text></Card.Text>
 		</Card.Body>
-		<a href="#" className="btn btn-secondary">BUY ON AMAZON</a>
+		<a target="_blank" rel="noreferrer" href="#" className="btn btn-secondary">BUY ON AMAZON</a>
 	</Card>
 </Col>
 ```
