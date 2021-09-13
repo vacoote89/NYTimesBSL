@@ -14,6 +14,11 @@ You've been asked by the NY Times to design a simple web page to see the current
 
 You will need to create your own NYTimes developer API key. This is similar to what you will do for the Movie DB API for your assignment!. [Here are step by step instructions on how to setup NY Times Developer API Key](Signup_NYTimes_API.md) to figure out how to create your own API key. You will need to turn on the Books API for this assignment.
 
+Create your react appliaction by running:
+```
+npx create-react-app
+```
+
 Now that you have created your API key, you will create an environment file to store your key. Under the main folder, create a file name `.env.local`
 Inside this file, add the following:
 ```
